@@ -85,5 +85,6 @@ def showspiral(args):
                 args[i][j] = chr(0x0001F7E6)
     for i in range(len(args)):
         print(*args[i])
-
-showspiral(spiralize(10))
+        
+spiralrange = 10
+showspiral(spiralize(spiralrange))
