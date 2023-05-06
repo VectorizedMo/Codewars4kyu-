@@ -39,7 +39,6 @@ class VigenereCipher(object):
         idklist = []
         i = 0
         for letter in text:
-            print(letter)
             if letter in self.alphabet:
                 listofletterstobeadded.clear()
                 idklist.clear()
